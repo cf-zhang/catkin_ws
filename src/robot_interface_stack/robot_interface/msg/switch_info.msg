@@ -1,0 +1,4 @@
+uint8 assistance_switch
+uint8 urgent_switch
+uint8 power_switch
+uint8 collision_switch

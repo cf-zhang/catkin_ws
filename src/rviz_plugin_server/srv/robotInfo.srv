@@ -1,0 +1,7 @@
+string roboname
+geometry_msgs/Pose pose
+int64 rssi
+int64 power
+geometry_msgs/Point location
+---
+string roboname

@@ -1,0 +1,7 @@
+#the const value for cmdID
+uint8 FOLLOWEMODE=0
+uint8 BACKMODE=1
+uint8 CHARGEMODE=2
+
+int64 cmdID
+---

@@ -1,0 +1,9 @@
+uint8 STARTNAVI=0
+uint8 STOPNAVI=1
+std_msgs/Header header
+uint8 cmd
+geometry_msgs/Pose pose
+---
+uint8 SUCCEED=0
+uint8 FAIL=1
+uint8 result

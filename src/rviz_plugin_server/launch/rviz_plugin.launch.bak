@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<launch>
+    <arg name="MarkerSaved" default="MarkerSaved.txt"/>
+    <param name="defalutGoals" value="$(find marker)/$(arg MarkerSaved)"/>
+    
+	
+    <include file="$(find map_server)/launch/map_server.launch"/>
+
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find rviz_plugin_server)/rviz_cfg/plugin.rviz" />
+
+    <include file="$(find lift_patrol)/launch/lift_patrol.launch"/>
+</launch>

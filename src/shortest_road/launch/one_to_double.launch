@@ -1,0 +1,15 @@
+<launch>
+
+  <!--<param name="markerfile" value="/home/cfzhang/catkin_ws/src/shortest_road/data/markersaved.txt"/>-->
+
+  <param name="markerfile" value="/home/cfzhang/catkin_ws/src/shortest_road/data/distance.csv1"/>
+  <param name="positionfile" value="/home/cfzhang/catkin_ws/src/shortest_road/data/positon.csv"/>
+  <param name="distancefile" value="/home/cfzhang/catkin_ws/src/shortest_road/data/distance.csv"/>
+  <param name="visiable" type="bool" value="false"/>
+  <param name="splitcount" type="int" value="5"/>
+  
+
+   <!--launch-prefix="xterm -e gdb"-->
+  <node name="shortest_one_to_double" pkg="shortest_road" type="one_to_double" 
+    args="/home/cfzhang/catkin_ws/devel/lib/shortest_road/test.txt /home/cfzhang/catkin_ws/devel/lib/shortest_road/aa.txt" output="screen"/>
+</launch>

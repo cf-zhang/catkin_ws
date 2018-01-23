@@ -1,0 +1,8 @@
+uint8 STARTFOLLOW=0
+uint8 STOPFOLLOW=1
+std_msgs/Header header
+uint8 cmd
+---
+uint8 SUCCEED=0
+uint8 FAIL=1
+uint8 result
