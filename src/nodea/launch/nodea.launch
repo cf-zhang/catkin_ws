@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="nodea" type="NodeA" name="NodeA" output="screen"  respawn="true" >
+        <param name="step" value="2"/>
+        <param name="base" value="10"/>
+    </node>
+</launch>
+
+

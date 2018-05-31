@@ -1,0 +1,4 @@
+cfzhang  14828  0.2  0.3 326504 55044 pts/2    Sl+  13:21   0:03 /usr/bin/python /opt/ros/kinetic/bin/roslaunch nodea.launch
+cfzhang  14839  0.3  0.3 537324 55024 ?        Ssl  13:21   0:04 /usr/bin/python /opt/ros/kinetic/bin/rosmaster --core -p 11311 -w 3 __log:=/home/cfzhang/.ros/log/082b2ad2-58c9-11e8-92e3-18dbf24df6d9/master.log
+cfzhang  15057  0.1  0.0 323748  9876 ?        Ssl  13:23   0:02 /opt/ros/kinetic/lib/rosout/rosout __name:=rosout __log:=/home/cfzhang/.ros/log/082b2ad2-58c9-11e8-92e3-18dbf24df6d9/rosout-1.log
+cfzhang  15502  0.0  0.0  15988   932 pts/18   S+   13:44   0:00 grep --color=auto kinetic

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+<!--    <include file="$(find testgui)/launch/testgui.launch"/>-->
+    <include file="$(find nodea)/launch/nodea.launch"/>
+    <include file="$(find nodeb)/launch/nodeb.launch"/>
+</launch>

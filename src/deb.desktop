@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=mydemo
+Comment=制作deb的工具
+Exec=bash -i -c  /opt/catkins/launchsys.sh
+Icon=/opt/catkins/hook.png
+Terminal=false
+Type=Application
+Categories=Development
+Name[zh_CN]=desktop
