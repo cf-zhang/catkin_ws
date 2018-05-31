@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="testgui" type="testgui" name="testgui" output="screen" respawn="true">
+    </node>
+</launch>
+
+
