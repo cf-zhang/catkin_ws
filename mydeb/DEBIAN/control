@@ -1,0 +1,9 @@
+Package: release
+Version: 0.1.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Depends:
+Installed-Size: 512
+Maintainer: cfzhang@forwardx.ai
+Description: release package

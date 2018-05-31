@@ -1,0 +1,3 @@
+#!/bin/sh  
+rm -rf ~/桌面/deb.desktop
+#sed -i '/release-0.1.0/d' ~/.bashrc 

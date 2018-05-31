@@ -1,0 +1,11 @@
+#!/bin/sh 
+if [ "$1" = "configure" ]; then  
+# echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+ echo "source /opt/catkins/setup.bash" >> ~/.bashrc
+# source ~/.basic
+# mkdir -p ~/JD 
+ cd /opt/catkins
+ cp deb.desktop ~/桌面/
+ chmod +x ~/桌面/deb.desktop
+ chmod +x /opt/catkins/launchsys.sh
+fi
